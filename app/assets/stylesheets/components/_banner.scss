@@ -1,0 +1,51 @@
+/* Capa
+-----------------------------*/
+.capa {
+	text-align: center;
+}
+
+.imagem-capa {
+	justify-items: center;
+	width: 50%;
+	padding-top: 3em;
+	padding-bottom: 1em;
+}
+
+.btn-custom {
+	color: white;
+	font-weight: 450;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+	background: #96d0a0;
+}
+
+.btn-roxo:hover {
+	background: #456c4c;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+	color: #5C4033;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+	width: 5%;
+	color: #2d1f18;
+}

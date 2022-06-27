@@ -14,3 +14,26 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+
+
+/* Tipografia
+-----------------------------*/
+h1 {
+	font-weight: 400;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: #5C4033;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
