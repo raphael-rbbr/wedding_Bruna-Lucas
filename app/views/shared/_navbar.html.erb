@@ -15,7 +15,8 @@
                 <%= link_to "Confirmar Presença", root_path, class: "navbar-brand"%>
               </li>
               <li class="nav-item">
-                <%= link_to "Presentes", root_path, class: "navbar-brand"%>
+                <%= link_to 'Presentes', root_path, class: "navbar-brand",
+                data: { confirm: "Voce esta sendo direcionado ao site da lista de compras. É isso que deseja?" }%>
               </li>
               <li class="nav-item divisor sumir-celular"></li>
 
