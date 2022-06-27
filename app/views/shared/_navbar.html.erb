@@ -11,17 +11,23 @@
              <li class="nav-item">
                  <%= link_to "B + L", root_path, class: "navbar-brand"%>
               </li>
-              <li class="nav-item">
-                <%= link_to "Confirmar Presença", root_path, class: "navbar-brand"%>
-              </li>
-              <li class="nav-item">
-                <%= link_to 'Presentes', root_path, class: "navbar-brand",
-                data: { confirm: "Voce esta sendo direcionado ao site da lista de compras. É isso que deseja?" }%>
-              </li>
               <li class="nav-item divisor sumir-celular"></li>
 
               <li class="nav-item quebra-celular">
-               <%= link_to "Cronograma & Local", pages_path, class: "navbar-brand"%>
+               <%= link_to "Data & Local", pages_path, class: "navbar-brand"%>
+              </li>
+
+              <li class="nav-item divisor sumir-celular"></li>
+
+              <li class="nav-item">
+                <%= link_to "Confirmar Presença", root_path, class: "navbar-brand"%>
+              </li>
+
+              <li class="nav-item divisor sumir-celular"></li>
+
+              <li class="nav-item">
+                <%= link_to 'Lista de presentes', root_path, class: "navbar-brand",
+                data: { confirm: "Voce esta sendo direcionado ao site da lista de compras. É isso que deseja?" }%>
               </li>
             </ul>
           </div>
