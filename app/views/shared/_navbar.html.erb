@@ -1,0 +1,29 @@
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+        <div class="container icone-barra">
+
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+                 <%= link_to "B + L", root_path, class: "navbar-brand"%>
+              </li>
+              <li class="nav-item">
+                <%= link_to "Confirmar Presença", root_path, class: "navbar-brand"%>
+              </li>
+              <li class="nav-item">
+                <%= link_to "Presentes", root_path, class: "navbar-brand"%>
+              </li>
+              <li class="nav-item divisor sumir-celular"></li>
+
+              <li class="nav-item quebra-celular">
+               <%= link_to "Cronograma & Local", pages_path, class: "navbar-brand"%>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
