@@ -1,0 +1,83 @@
+
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background: rgb(240, 240, 240);
+	background-attachment: fixed;
+	font-family: Garamond, serif;
+}
+
+.gift_item {
+  padding: 9px;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+
+.gift_item_desciption{
+  display: column;
+  width: 45%;
+  padding-top: 20px;
+}
+
+.gift_banner {
+  width: 55%;
+  margin: 15px;
+}
+
+
+.gift_payment {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 25px;
+}
+
+.gift_bank {
+  margin: 15px;
+  justify-content: center
+}
+
+.gift_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+p {
+	background-attachment: fixed;
+	font-family: Garamond, serif;
+}
+
+
+.gift_value {
+  position:relative;
+  top:45%;
+}
+
+.gift_payment_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.gift_main_text {
+  text-align: justify;
+  margin: 15px;
+
+  h2 {
+    text-align: center;
+    padding: 7px;
+  }
+
+  p {
+    text-indent: 25px;
+  }
+}
