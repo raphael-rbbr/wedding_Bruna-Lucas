@@ -20,7 +20,8 @@ body {
 
 
 .gift_item_desciption{
-  display: column;
+  display: flex;
+  flex-direction: column;
   width: 45%;
   padding-top: 20px;
 }
@@ -57,8 +58,7 @@ p {
 
 
 .gift_value {
-  position:relative;
-  top:45%;
+  flex-direction: row;
 }
 
 .gift_payment_title {
