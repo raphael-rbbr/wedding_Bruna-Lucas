@@ -29,16 +29,16 @@ body {
 
 
 .gift_item_desciption{
-  width: 85%;
+  width: 55%;
   padding-top: 20px;
   p {
     text-indent: 25px;
-    font-size: x-large;
+    font-size: large;
   }
 }
 
 .gift_banner {
-  width: 55%;
+  width: 45%;
   height: auto;
   margin: 15px;
   min-width: 90px;
@@ -54,7 +54,7 @@ body {
 
 
 .gift_payment {
-  width: 75%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,17 +63,16 @@ body {
 }
 
 .gift_bank {
-  margin: 5px;
+  margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  justify-content: center;
-  width: 85%;
-  justify-content: center;
   max-width:800px;
-  p {
-    width: 80%;
-  }
+  width: 85%;
+  height: auto;
+  word-break: break-all;
+
 }
 
 .gift_title {
@@ -100,13 +99,14 @@ p {
   margin-bottom: 0px;
 }
 .gift_pix {
-  width: 85%;
+  width: 100%;
   justify-content: center;
   max-width:800px;
   .img{
     width:auto;
     height:auto;
     object-fit: scale-down;
+    max-width: 400px;
   }
 }
 
