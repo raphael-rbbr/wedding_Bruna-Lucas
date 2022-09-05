@@ -33,7 +33,7 @@ body {
   padding-top: 20px;
   p {
     text-indent: 25px;
-    font-size: large;
+    font-size: 2.8vmin;
   }
 }
 
@@ -90,6 +90,10 @@ p {
 
 .gift_value {
   align-self: end;
+  h6{
+    font-size: 1.9vmin;
+
+  }
 }
 
 .gift_payment_title {
@@ -121,6 +125,6 @@ p {
 
   p {
     text-indent: 25px;
-    font-size: large;
+    font-size: 3.0vmin;
   }
 }
